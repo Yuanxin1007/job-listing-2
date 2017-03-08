@@ -19,7 +19,7 @@
  @import "font-awesome";
 
  .jumbotron {
-   background-image:url('http://y.photo.qq.com/img?s=n0m7YMg0L&l=y.jpg');
+   background-image:url('http://th17.st.depositphotos.com/1071909/1947/i/950/depositphotos_19475337-stock-photo-human-resources.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    padding-bottom: 110px;
@@ -57,3 +57,18 @@
      box-shadow: none;
      margin-top: 60px;
  }
+
+ .custab{
+  border: 1px solid #ccc;
+
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;
+
+  transition: 0.5s;
+}
+
+.custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+}
